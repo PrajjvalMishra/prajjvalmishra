@@ -1,0 +1,47 @@
+*{
+    padding: 10px;
+}
+body{
+    background-color: black;
+    background-image: url(PRajjval_MIshra.jpeg);
+    background-size: cover;
+}
+img{
+    float: left;
+    border-radius: 90%;
+    border: 10px solid aqua;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+h3{
+    align-content: center;
+    font-size: 30px;
+    color: aqua;
+    margin-left: 40%;
+    margin-bottom: 0%;
+}
+h1{
+    font-size: 70px;
+    font-family: cursive;
+    color: aqua;
+    padding: 0px;
+    margin-left: 40%;
+    margin-top: 0%;
+    
+}
+.mycv{
+    margin-left: 40%;
+    border: 2px solid aqua;
+    background-color: aliceblue;
+    height: 50px;
+    width:110px;
+}
+.text{
+    margin-left: 40%;
+}
+.home{
+    color: aliceblue;
+    text-decoration: none;
+}

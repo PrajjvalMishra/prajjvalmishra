@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table merging called Cell Spanning</title>
+</head>
+<body>
+    <!--Column Spanning-->
+    <table border="1px" cellpadding="10px" Cellspacing="0px">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Prajjval</td>
+            <td>OOPs</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>DBMS</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Gopro</td>
+            <td>C++</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>DS</td>
+            <td>84</td>
+        </tr>
+    </table>
+    <br>
+    
+    <!--RowSpanning-->
+    <table border="1px" cellpadding="10px" Cellspacing="0px">
+        <thead>
+          <tr>
+              <td colspan="2">44-70</td>
+              <td colspan="2">26-43</td>
+              <td colspan="3">1-25</td>
+          </tr>
+        </thead>  
+          <tr>
+              <td>M</td>
+              <td>F</td>
+              <td>M</td>
+              <td>F</td>
+              <td>M</td>
+              <td>F</td>
+          </tr>
+          <tr>
+                <td>22%</td>
+                <td>21%</td>
+                <td>45%</td>
+                <td>55%</td>
+                <td>90%</td>
+                <td>95%</td>
+            </tr>
+    </table>
+</body>
+</html>

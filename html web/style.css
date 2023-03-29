@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+}
+h1{
+    color: black;/* Black colour is used*/
+    margin
+}
+p{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 20px;
+    padding: 30px 30px 30px 30px;/* top right bottom left*/
+}

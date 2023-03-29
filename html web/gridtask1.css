@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    background-color: bisque;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(4,auto);
+    gap: 0px;
+    display: grid;
+}
+.a,.b,.f{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.c,.g,.e{
+    background-color: red;
+    border: 1px solid black;
+}
+.d,.h{
+    background-color: yellow;
+    border: 1px solid black;
+}
+.a{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.b{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.f{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+}

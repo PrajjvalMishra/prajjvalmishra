@@ -1,0 +1,77 @@
+*{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+body{
+    background-image: url(starbucks.jpg);
+    background-size: cover;
+}
+.heading{
+    background-color: #009865;
+    color: #c1d28e;
+    box-shadow: 3px 3px 2px 0px #888888;
+}
+h3{
+    color: #009865;
+}
+.ttle{
+    font-size: 25px;
+}
+.download{
+    float: left;
+    padding: 10px;
+    background-color: #c1d28e;
+    margin: 2%;
+    box-shadow: 3px 3px 2px 0px #888888;
+}
+hr{
+    border: 1px solid #009865;
+}
+.registrationform{
+    float: right;
+    padding: 10px;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-color: #c1d28e;
+    line-height: 100%;
+    color:brown;
+    font-size: 15px;
+    box-shadow: 3px 3px 2px 0px #888888;
+}
+.rgs{
+    color:  #c1d28e;
+    background-color: #009865;
+    text-align: center;
+    font-size: 120%;
+    padding: 4%;
+}
+i{
+    float: left;
+    padding: 15px;
+}
+#country{
+    width: 100%;
+}
+#region{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #009865;
+    color: #c1d28e;
+    border: none;
+    padding: 3%; 
+    border-radius: 10px;
+}
+.sbtl{
+    color: black;
+}
+.video{
+    float: left;
+    border: transparent;
+    padding: 30px;
+    font-family: cursive;
+    color: #c1d28e;
+}

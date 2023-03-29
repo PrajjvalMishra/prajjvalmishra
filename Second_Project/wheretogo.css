@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/where-to-go-1655286043_46015cb2db796defac5d.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+    background-color: white;
+}
+.header h1{
+    font-size: 200px;
+    color: white;
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 2%;
+}
+img{
+    height: 250px;
+    width:600px;
+}
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.header-logo-content {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: color .3s;
+}
+.header-main{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15%;
+}
+.header-main li{
+    float: left;
+    list-style: none;
+    display: list-item;
+    margin-left: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header-main ul a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.header-main ul li a:hover{ 
+    display: block;
+    width: 490px;
+    background-color: #ffdd00;
+    transition-duration: 1s;
+}
+.cate_flex{
+   height: max-content;
+   width: 100vw;
+   display: flex;
+}
+.category{
+    height: max-content;
+    width: 30%;
+}
+.sidebar-link{
+    font-size: 80px;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.mb-2{
+    padding: 30px;
+    font-size: 120px;
+    background-color: #ffdd00;
+    margin-bottom: 20px;
+}
+.mb-3{
+    padding: 30px;
+}
+.mb-3 a:hover{
+    display: block;
+    width: 80%;
+    background-color: #ffdd00;
+   
+    transition-duration: 1s;
+   cursor: pointer;
+}
+.hills{
+    display: block;
+    width: 80%;
+    background-color: #ffdd00;
+}
+.flex{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   margin-left: 3%;
+   margin-top: 3%;
+}
+.b1{
+    height: 50vh;
+    width: 31%;
+    position: relative; 
+}
+.b1 img{
+    height: 90%;
+    width: 90%;
+  position: absolute;
+  transition: 1s;
+  
+}
+ .b1 img:hover{
+        transform: scale(1.1);}
+   
+    .b1 p {
+       
+        position: absolute;
+        top: 45%;
+        margin-left: 2%;
+        margin-top: 28%;
+        color: #fff;
+        font-size: 100px;
+        font-weight: bold;
+        /* z-index: 100; */
+    }

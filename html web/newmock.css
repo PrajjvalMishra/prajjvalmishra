@@ -1,0 +1,12 @@
+*{
+    background-color: antiquewhite;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.table{
+    padding: 20px;
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}

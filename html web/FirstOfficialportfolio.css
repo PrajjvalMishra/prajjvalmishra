@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    position: fixed;
+}
+img{
+    height: 150px;
+}
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-content {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    transition: color .3s;
+}
+.header__logo-sub {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.header-main{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40%;
+}
+.header-main li{
+    float: left;
+    list-style: none;
+    display: list-item;
+    margin-left: 80px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.header-main ul a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.header-main ul li a:hover{ 
+    color:rgb(250,207,15);
+}
+.body{
+    height: 100%;
+    background-image:url(https://www.transparenttextures.com/patterns/black-felt.png);
+    background-color: #ffdd00;
+   
+}
+.home-hero__socials{
+    height: 35%;
+    width:3%;
+    padding: 30px 20px 0px 20px;
+    transform: translateY(850px);
+    background-color: white;
+    border-radius: 20px;
+}
+.home-hero__social img{
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    margin-top: 45px;
+}
+.home-hero__social a:hover{
+    display: block;
+    background-color: #ffdd00;
+}
+.about_me{
+    text-align: center;
+    align-items: center;
+    padding: 300px;
+    font-family: sans-serif;
+    font-size: 70px;
+    background-color: rgb(249,249,249);
+}
+.about{
+    font-family: sans-serif;
+    font-size: 120px;
+}
+.heading-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-family: sans-serif;
+}
+.text-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: sans-serif;
+    padding: 150px;
+    color: black;
+}
+.home-hero__content{
+    height: 80%;
+    width: 100%;
+     
+}
+.home-hero__cta{
+    height: 9%;
+    width: 12%;
+    margin-left: 43.5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+    font-size: 90px;
+    padding: 50px;
+    background-color: white;
+    font-family: sans-serif;
+    border: transparent;
+    border-radius: 20px;
+}
+.home-hero__cta a .btn:hover{
+    color:#ffdd00;
+}
+.about_me_detail{
+    height: 70vh;
+    width: 100vw;
+    background-color:rgb(249,249,249);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.know_me{
+    width: 40%;
+    font-size: 70px;
+    font-family: sans-serif;
+    line-height: 150px;
+}
+.about1{
+    font-family: sans-serif;
+    font-size: 80px;
+}
+.know_me p{
+    margin-top: 100px;
+}
+.skills{
+    width: 50%;
+}
+.skills1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.skills__skill {
+    padding: 100px 200px;
+    margin-bottom: 2.5rem;
+    margin-right: 2.5rem;
+    font-size:60px;
+    background: rgba(153,153,153,.2);
+    border-radius: 10px;
+    font-weight: 600;
+    color: #666;
+}
+.projects{
+    text-align: center;
+    align-items: center;
+    padding: 300px;
+    font-family: sans-serif;
+    font-size: 70px;
+    background-color: rgb(249,249,249);
+}
+.project_types{
+    height: 100vh;
+    width: 100vw;
+    padding: 300px;
+    padding-top: 0%;
+    font-family: sans-serif;
+    font-size: 70px;
+    background-color: rgb(249,249,249);
+    
+}
+.project1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project1_img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.description{
+    font-family: sans-serif;
+    line-height: 150px;
+    padding: 140px;
+}
+.container1{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    font-size: 100px;
+    background-color: rgb(249,249,249);
+    color:black;
+    padding: 0px;
+}
+.about2{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.email{
+    margin-bottom: 0px 0px 0px 0px;
+    font-family: sans-serif;
+    font-size: 100px;
+    display: flex;
+}
+.email-box{
+    height: 80%;
+    width: 20%;
+}
+.password{
+    margin-bottom: 0px 0px 0px 0px;
+    font-family: sans-serif;
+    font-size: 100px;
+    display: flex;
+}
+.password-box{
+    height: 80%;
+    width: 17%;
+}
+.button{
+    height: 100px;
+    width: 500px;
+    border: 1px;
+    background-color:transparent;
+    color: aqua;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color:#ffdd00;
+    font-family: sans-serif;
+    border: transparent;
+    border-radius: 20px;
+    border-radius: 10px;
+
+}
+.contact_me{
+    width: 40%;
+    background-color:rgb(249,249,249);
+    padding-top: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    font-size: 70px;
+  
+  }
+  input[type=submit] {
+    background-color:#ffdd00;
+    color:black;
+    padding: 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 28px;
+    font-size: 80px;
+  }
+  
+  .container1 {
+    height: 60vh;
+    border-radius: 5px;
+    background-color:rgb(249,249,249);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+  }
+  .about3{
+    font-family: sans-serif;
+  }
+  .main-footer__lower {
+    padding: 40px 0;
+    border-top: 1px solid black;
+    color: #eee;
+    background-color: black;
+    font-size: 40px;
+    text-align: left;
+    text-align: center;
+}

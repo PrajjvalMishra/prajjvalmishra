@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* padding-left: 3%; */
+
+
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+}
+
+.header span {
+    color: rgb(238, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header h2 {
+    color: rgb(134, 128, 128);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.grid {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 1%;
+    justify-content: center;
+
+}
+
+.box {
+    border: 2px solid rgb(163, 158, 158);
+    height: 150%;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0.5px 1px gray;
+
+
+}
+
+.box img {
+    height: 80%;
+    width: 90%;
+    padding-top: 2%;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.box img:hover {
+    transform: scale(1.1);
+}
+
+.box span {
+    position: absolute;
+
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: crimson;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+}
+
+.box h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.stars i {
+    margin-top: 1%;
+    color: gold;
+}
+
+.btn {
+    margin-top: 2%;
+
+
+}
+
+.btn1 {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    width: 25%;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 1s;
+
+}
+
+/* .btn1::before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 0%;
+    height: 100%;
+    background: red;
+    transition: 1s linear;
+    z-index: -1;
+} */
+.btn1:hover {
+    box-shadow: inset 400px 0 0 0 red;
+    color: #fff;
+}
+
+.footer {
+    height: 40%;
+    width: 100%;
+
+}
+
+.para2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.footer {
+    height: 60%;
+    width: 100%;
+    margin-top: 2%;
+    /* background-image: url(./pizza-g1c32286b4_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.para1 {
+    height: 20%;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 35px;
+}
+
+.para1 span {
+    color: red;
+}
+
+.para2 {
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* .logo{
+    height: 100%;
+    display: flex;
+    flex-direction: column; */
+
+.logo img {
+    border: 5px solid rgb(241, 33, 33);
+
+    border-radius: 50%;
+    height: 250px;
+}
+
+.logo p {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.logo span {
+    color: red;
+}
+
+#vm {
+    width: 25%;
+    height: 50px;
+    margin-top: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 1s;
+
+}
+#vm:hover {
+    box-shadow: inset 400px 0 0 0 red;
+    color: #fff;
+}

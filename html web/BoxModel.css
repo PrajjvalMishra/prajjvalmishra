@@ -1,0 +1,25 @@
+*{
+    padding: 10px;
+}
+.Dss{
+    color:orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+    border: 5px solid blue;
+}
+a:link{
+    text-decoration: none;
+    color: yellow;
+}
+.Food{
+    text-align: center;
+    color: crimson;
+    border: 5px solid red;
+}
+.last{
+    text-align: center;
+    border: 5px solid greenyellow;
+    padding: 24px;
+    margin: 10px;
+}

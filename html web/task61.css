@@ -1,0 +1,99 @@
+.container{
+    padding: 50px;
+    background-image: linear-gradient(pink,lightblue);
+}
+.header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    color: blueviolet;
+}
+.head{
+    font-size: 40px;
+}
+.search{
+    padding: 20px;
+    margin-left: 800px;
+    background-color: #d1e714;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.description{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #d1e714;
+  margin-top: 10px;
+}
+.d1{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.d2{
+    font-size: 25px;
+}
+.lectures{
+    height: 70vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.link{
+    width: 40%;
+    border: 2px solid #d1e714;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: blueviolet;
+    line-height: 2;
+}
+.about{
+    width: 40%;
+    border: 2px solid #d1e714;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: blueviolet;
+    line-height: 3;
+}
+.footer{
+    background-color: #e6de58; 
+}
+.header2{
+    background-color: yellow;
+}
+.header2 li{
+    float: left;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.header2 ul{
+    overflow: auto;
+    margin: 0px;
+}
+.header2 ul a{
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.btn{
+    margin-left: 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.header2 ul li a:hover{
+    display: block;
+    background-color: lightcoral;
+    transition-duration: 5s;
+
+}
+.about1{
+    color: purple;
+}

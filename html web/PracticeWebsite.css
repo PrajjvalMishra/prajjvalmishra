@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 150vh;
+    width: 100vw;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    background-size: cover;
+}
+.header1{
+    height:4%;
+    width:100%;
+    background-color: rgb(253,72,39); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.header1 h1{
+    width: 50%;
+    height: 100%;
+    font-size: 150px;
+    color: white;
+}
+.search{
+      float: right;
+      width: 50%;
+      height: 100%;
+      padding: 20px;
+      margin-left: 50%;
+      display: flex;
+      justify-content: center;
+}
+.srh{
+    height: 70%;
+    width: 40%;
+}
+.btn{
+    font-size: 40px;
+    height: 70%;
+    width: 20%;
+}
+.navbar{
+    height: 4%;
+    width: 100%;
+    background-color:rgb(97,147,114);
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+    font-size: 10px;
+    padding: 0px;
+
+}
+.navbar ul{
+    overflow: inherit;
+    margin: 0px;
+}
+.navbar ul a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+    margin-top: 0%;
+}
+.navbar ul li a:hover{
+    display: block;
+    width: 890px;
+    background-color: lightcoral;
+    transition-duration: 2s;
+
+}
+.content{
+    height: 86%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content1{
+    width:60%;
+    border: 10px solid  rgb(253,72,39);
+    padding: 20px;
+}
+.content1 h2{
+    color: aliceblue;
+    font-size: 100px;
+}
+.content1 a{
+    font-size: 60px;
+    color: white;
+    line-height: 4;
+    text-decoration: none;
+}
+.content ul li a:hover{
+    display: block;
+    width: 100%;
+    background-color: rgb(253,72,39);
+    transition-duration: 2s;
+
+}
+.content2{
+    width: 20%;
+    border: 10px solid rgb(97,147,114);
+}
+.footer{
+    height: 2%;
+    width: 100%;
+    background-color:  rgb(253,72,39);
+    color: white;
+    font-size: 50px;
+}
+.content2 img{
+    height: 100%;
+    width: 100%;
+}
+
+  .ball{
+    position:absolute;
+    top:50%;
+    left:60%;
+    width:20%;
+    height:20%;
+    border-radius: 50%;
+    animation:spinBall 4s ease-in-out infinite;
+    background-color: orangered;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+  }
+  @keyframes spinBall{
+    0%, 100%{
+      transform:rotate(0);
+    }
+    50%{
+      transform:rotate(180deg);
+    }

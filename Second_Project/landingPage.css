@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    position: fixed;
+}
+img{
+    height: 250px;
+    width:600px;
+}
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-content {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: color .3s;
+}
+.header-main{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+.header-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15%;
+}
+.header-main li{
+    float: left;
+    list-style: none;
+  
+    margin-left: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header-main ul a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.header-main ul li a:hover{ 
+    display: block;
+    width: 490px;
+    background-color: #ffdd00;
+    transition-duration: 1s;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  } 
+.heading{
+    height: 40vh;
+    width: 100vw;
+    font-size: 100px;
+    padding-top: 250px;
+    background-color: rgb(239,239,239);
+}  
+.head_main{
+    padding-left: 900px;
+    padding-right: 900px;
+}
+.head1{
+    font-size: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.head_main p{
+    padding-bottom: 20px;
+}
+.places_to_visit{
+    height: 70vh;
+    width: 100vw;
+}
+.places_to_visit_heading{
+    font-size: 200px;
+    padding-left: 280px;
+    padding-top: 250px;
+}
+.places_to_visit_paragraph{
+    font-size: 80px;
+    padding-left: 280px;
+    padding-top: 40px;
+}
+.images{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image1{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.info{
+    position: absolute;
+    top: 0%;
+    margin-top: 70%;
+    font-size: 50px;
+    color: white; 
+}
+.btn1{
+   height: 100px;
+   width: 580px;
+   font-size: 60px;
+   color: white;
+   border: none;
+   background-color: transparent;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-align: left;
+}
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+.btn1 a:hover{
+    color: #ffdd00;
+}
+.images img{
+    height: 100%;
+    width: 70%;
+    transition: all 1s linear; 
+    overflow: hidden;
+}
+.images img:hover{
+    transform: scale(1.2);
+}
+.experiences{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 300px;
+}
+.experiences_info{
+    position: absolute;
+    top: 0%;
+    margin-top: 100%;
+    font-size: 50px;
+    color: white; 
+}
+.image2{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.experiences1{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 00px;
+}
+.images3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images3 img{
+    height: 100%;
+    width: 90%;
+    transition: all 1s linear; 
+    overflow: hidden;
+}
+.image3{
+    height: 90%;
+    width: 29%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 150px;
+    display: inline;
+}
+.experiences_info1{
+    height: 50%;
+    width: 100%;
+   display: flex;
+   
+   
+}
+.experiences_info1_desc1{
+    width: 30%;
+  font-size: 70px;
+  padding-left: 3%;
+}
+.desc1{
+    padding-left: 9%;
+}
+.desc2{
+    padding-left: 17%;
+}
+/* .experiences_info1_desc2{
+    padding-left: 800px;
+    padding-right: 800px;
+  font-size: 60px;
+  margin-left: 50px;
+}
+.experiences_info1_desc3{
+    margin-right: 700px;
+   
+    font-size: 60px;
+} */
+.images3 img:hover{
+    transform: scale(1.2);
+}
+.slide{
+    padding-top: 450px;
+}
+.image-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/airavatesvara-temple-1655101151_6caff715326c59034e4e.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+@keyframes slide{
+    25%{
+        background: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/airavatesvara-temple-1655101151_6caff715326c59034e4e.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/brihadeeswara-temple-1655101075_33b202587389ac8e09af.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/gangaikonda-cholapuram-1655101210_b291af7400672f8e4870.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/the-nilgiri-mountain-railway-1655101254_b4c504ebb6c80eb89064.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.image-container-desc1{
+    height: 15%;
+    width: 20%;
+    position: absolute;
+    top: 0%; 
+    background-color: rgb(33,37,41);
+    color: rgb(239,239,239);
+    margin-right: 15%;
+    font-size: 70px;
+    padding: 80px;
+    
+
+}
+.image-container-desc2{
+    height: 15%;
+    width: 20%;
+    position: absolute;
+    top: 0%; 
+    background-color: rgb(239,239,239);
+    margin-left: 20%;
+    font-size: 35px;
+    padding: 90px;
+}
+.experiences2{
+    height: 70vh;
+    width: 98vw;
+    padding-top: 300px;
+}
+.images4{
+    height: 100vh;
+    width:100vw;
+    background-color:white;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(4,auto);
+    padding: 250px;
+    gap: 70px;
+    display: grid;
+    position: relative;
+}
+.a{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/tablet/temples-1653366762_874bcbbbad2baab445bc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 50px;
+
+}
+.a{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.attractions_1{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 35%;
+    padding-top: 20%;
+}
+.a:hover{
+    filter: brightness(50%);
+}
+.b:hover{
+    filter: brightness(50%);
+    
+}
+.c:hover{
+    filter: brightness(50%);
+}
+.d:hover{
+    filter: brightness(50%);
+}
+.e:hover{
+    filter: brightness(50%);
+}
+.f:hover{
+    filter: brightness(50%);
+}
+.attractions_2{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 10%;
+    padding-top: 12%;
+}
+.attractions_3{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 10%;
+    padding-top: 12%;
+}
+.attractions_4{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 15%;
+    padding-top: 12%;
+}
+.attractions_5{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 10%;
+    padding-top: 12%;
+}
+.attractions_6{
+    font-size: 70px;
+    position: absolute;
+    padding-right: 35%;
+    padding-top: 20%;
+}
+.e{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/vertical/adventure-1658380651_100206a11e0ba04c40ad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 250px;
+
+}
+
+.f{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/tablet/cuisine-and-gastronomy-1658385810_2927e91ac73c43eeb100.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+.f{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.d{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/vertical/hills-1655195260_1f9bcf8d424d9f2f95d4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 250px;
+}
+.b{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/vertical/heritage-1658380633_216499912e28677c7237.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+}
+.c{
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/vertical/wildlife-1658380674_596c4d116e432d12a6e6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 250px;
+}
+.eat_and_drink{
+    margin-top: 28%;
+}
+.images5{
+    height: 70vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50px;
+}
+.image5 img{
+    height: 100%;
+    width: 100%;
+    padding: 130px;
+    position: relative;
+}
+.image5_detail{
+    position: absolute;
+    margin-top: 19%;
+    margin-right: 40%;
+    color: white;
+    font-size: 90px;
+}

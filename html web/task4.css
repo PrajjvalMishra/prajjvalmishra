@@ -1,0 +1,13 @@
+.table{
+    background-color: white;
+    height: 100vh;
+}
+.tablehead{
+    background-color: #92a051;
+}
+table,th,td{
+    border: 1px solid white;
+}
+td{
+    background-color:  #e3f7d4;
+}

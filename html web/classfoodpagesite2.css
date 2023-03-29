@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.headform{
+    height: 100vh;
+    width:100vw;
+}
+.mainform{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.image1{
+    margin-top: 100px;
+    width:90%;
+    height: 100%;
+}
+.text{
+    border: 0;
+    border-bottom: 2px solid gray;
+}

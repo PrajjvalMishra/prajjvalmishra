@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+   font-family: 'Sans Pro', sans-serif ; 
+   
+}
+.header{
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url(https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/blogs-1657873836_f10bca01d818d4b9f937.webp);
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 44%;
+    padding-left: 12%;
+    transition: 1s;
+}
+.header:hover{
+    color: crimson;
+}
+.content h4{
+ color: gray;
+ margin-left: 5%;
+ margin-top: 1%;
+}
+.flex{
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 2%;
+   object-fit: cover;
+   margin-top: 3%;
+   
+}
+.b1{
+    height: 60vh;
+    width: 30%;
+    position: relative; 
+}
+.b1 img{
+    height: 90%;
+  position: absolute;
+  transition: 1s;
+  
+}
+ .b1 img:hover{
+        transform: scale(1.1);}
+   
+    .b1 p {
+       
+        position: absolute;
+        top: 45%;
+        margin-left: 2%;
+        margin-top: 26%;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        /* z-index: 100; */
+    }
+    .b1 p:hover{
+        color: red;
+    }

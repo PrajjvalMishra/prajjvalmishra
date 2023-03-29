@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Invoice</title>
+</head>
+<body>
+    <table border="1px" cellspacing="0px" cellpadding="10px">
+        <caption>Invoice</caption>
+        <tr>
+                <th>Item/Desc.</th>
+                <th>Qty.</th>
+                <th>@</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Paperclips(Box)</td>
+                <td>100</td>
+                <td>1.15</td>
+                <td>115.00</td>
+            </tr>
+            <tr>
+                    <td>Paper(Case)</td>
+                    <td>10</td>
+                    <td>45.99</td>
+                    <td>459.90</td>
+                </tr>
+                <tr>
+                        <td>Wastepaper Basket</td>
+                        <td>2</td>
+                        <td>17.99</td>
+                        <td>35.98</td>
+                    </tr>
+             <tr>
+                 <td colspan="3"><b>Subtotal</b></td>
+                 <td>610.88</td>
+             </tr>    
+             <tr>
+                 <td colspan="2"><b>Tax</b></td>
+                 <td>7%</td>
+                 <td>42.76</td>
+             </tr> 
+             <tr>
+                 <td colspan="3"><b>Total</b></td>
+                 <td>653.64</td>
+             </tr>  
+            
+    </table>
+    <br>
+    <br>
+    <table border="1px" cellspacing="0px" cellpadding="10px">
+        <caption>Example:Nested</caption>
+        <tr>
+            <td rowspan="2"colspan="2" align="center"><b>CI </b></td>
+            <td rowspan="2" align="center"><b>All Genders</b></td>
+            <td align="center"><b>By Gender</b></td>
+        </tr>
+        <tr>
+            <td>
+            <table border="1">
+                <tr>
+                    <th>Male</th>
+                    <th>Female</th>
+                 </tr> 
+                 <tr>
+                     <td>9215604</td>
+                     <td>4512358</td>
+                 </tr>  
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Rural</b></td>
+            <td>6521458</td>
+            <td>4215389</td>
+            <td colspan="2" align="center">4152348</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
