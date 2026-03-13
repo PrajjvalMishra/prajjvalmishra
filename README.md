@@ -76,33 +76,6 @@ journey: Full Stack Web Dev → AI & Cloud Data
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-[![Trophies](https://github-profile-trophy.vercel.app/?username=prajjvalmishra&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake-dark.svg" />
-</picture>
-
-</div>
-
-<!-- ⚠️ To activate the snake, add the GitHub Action from snake-action.yml to your profile repo at:
-     .github/workflows/snake.yml
-     Then run it manually once from the Actions tab. It will auto-run daily after that. -->
-
----
 
 ## 📊 Activity Graph
 
