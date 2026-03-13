@@ -68,7 +68,7 @@ journey: Full Stack Web Dev → AI & Cloud Data
 <div align="center">
   
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=prajjvalmishra&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=prajjvalmishra&theme=tokyonight&hide_border=true&background=0D1117&stroke=36BCF7&ring=36BCF7&fire=FF6B6B&currStreakLabel=36BCF7" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=prajjvalmishra&theme=tokyonight&hide_border=true&background=0D1117&stroke=36BCF7&ring=36BCF7&fire=FF6B6B&currStreakLabel=36BCF7" />
 
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prajjvalmishra&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&text_color=ffffff" />
 
@@ -80,7 +80,7 @@ journey: Full Stack Web Dev → AI & Cloud Data
 
 <div align="center">
   
-![Trophies](https://github-profile-trophy.vercel.app/?username=prajjvalmishra&theme=tokyonight&no-frame=true&no-bg=true&column=7)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=prajjvalmishra&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -90,9 +90,17 @@ journey: Full Stack Web Dev → AI & Cloud Data
 
 <div align="center">
   
-![Snake animation](https://github.com/prajjvalmishra/prajjvalmishra/blob/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/prajjvalmishra/prajjvalmishra/output/github-snake-dark.svg" />
+</picture>
 
 </div>
+
+<!-- ⚠️ To activate the snake, add the GitHub Action from snake-action.yml to your profile repo at:
+     .github/workflows/snake.yml
+     Then run it manually once from the Actions tab. It will auto-run daily after that. -->
 
 ---
 
